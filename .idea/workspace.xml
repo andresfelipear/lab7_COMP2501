@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d824a015-4b79-4cb4-8997-4f8e7376e58d" name="Changes" comment="tested player class">
-      <change afterPath="$PROJECT_DIR$/src/code/League.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/LeagueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/TeamTest.java" afterDir="false" />
+    <list default="true" id="d824a015-4b79-4cb4-8997-4f8e7376e58d" name="Changes" comment="created and tested team and league classes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2501_Lab07.docx" beforeDir="false" afterPath="$PROJECT_DIR$/2501_Lab07.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$01_Lab07.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WRL0003.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708733408342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created and tested team and league classes.">
+      <option name="closed" value="true" />
+      <created>1708756032925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708756032925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tested player class" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested player class" />
+    <MESSAGE value="created and tested team and league classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="created and tested team and league classes." />
   </component>
 </project>
