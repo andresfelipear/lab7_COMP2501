@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d824a015-4b79-4cb4-8997-4f8e7376e58d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d824a015-4b79-4cb4-8997-4f8e7376e58d" name="Changes" comment="tested player class">
+      <change afterPath="$PROJECT_DIR$/src/code/League.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/LeagueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/TeamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2501_Lab07.docx" beforeDir="false" afterPath="$PROJECT_DIR$/2501_Lab07.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab7.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/code/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +21,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "andresfelipear"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="06be3668-58d4-4cc7-a1ce-a1ad00a6f834" />
+        <option name="url" value="https://github.com/andresfelipear/lab7_COMP2501.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -72,10 +87,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.LeagueTest">
+    <configuration name="LeagueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeagueTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.testShirtNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="testShirtNumber" />
+      <option name="MAIN_CLASS_NAME" value="TeamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamTest.testSignNewPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeamTest" />
+      <option name="METHOD_NAME" value="testSignNewPlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeagueTest" />
+        <item itemvalue="JUnit.TeamTest" />
+        <item itemvalue="JUnit.TeamTest.testSignNewPlayer" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PlayerTest.testScoreGoal" />
-        <item itemvalue="JUnit.PlayerTest.testShirtNumber" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,9 +155,22 @@
       <updated>1708591604883</updated>
       <workItem from="1708591606010" duration="1525000" />
     </task>
+    <task id="LOCAL-00001" summary="tested player class">
+      <option name="closed" value="true" />
+      <created>1708733408342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708733408342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tested player class" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested player class" />
   </component>
 </project>
